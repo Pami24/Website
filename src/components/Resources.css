@@ -1,0 +1,15 @@
+.google-doc-container {
+  display: flex;
+  justify-content: center;
+  overflow-y: auto; /* Add this to enable vertical scrolling */
+}
+
+.google-doc-container iframe {
+  max-width: 100%;
+  height: 800px; /* Adjust the height as needed */
+}
+/* Resources.css */
+#resources {
+  text-align: center;
+  color: white;
+}

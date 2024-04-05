@@ -1,0 +1,30 @@
+/* Homepage.css */
+#home {
+    padding-top: 150px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.palouse-image-container {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.palouse-image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+
+#home h1,
+#home h3 {
+    color: #ffffff;
+}

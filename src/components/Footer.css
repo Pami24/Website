@@ -1,0 +1,14 @@
+.footer {
+    background-color: #333; /* Set background color for the footer */
+    color: #fff; /* Set text color to white */
+    padding: 20px 0; /* Add padding to the top and bottom */
+  }
+  
+  .footer-content {
+    text-align: center; /* Center-align content within the footer */
+  }
+  
+  .contact-info {
+    margin: 0; /* Remove default margin from the paragraph */
+  }
+  

@@ -1,0 +1,56 @@
+/* ProgramsPage.css */
+#programs {
+    background-color: #9abed6;
+    padding: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+    text-align: center; /* Center text */
+}
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.container h2 {
+    font-size: 2em;
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.programs-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px; /* Add space between image and text */
+}
+
+.text-container {
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%; /* Limit image height to 100% of its container */
+}
+
+.text-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-container li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
